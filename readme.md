@@ -2,6 +2,8 @@
 
 Projeto de estudo da aula Project Build "ProjectFlyer" With Me
 
+[Link](https://github.com/stephanjusypiw/project-flyer) encontrado para um projeto do git que com o código implementado
+
 ## Initial Setup
 
 Alterar chave do projeto via artisan(atualmente já é feito via composer create projetct), alterar banco para o desejado.
@@ -30,4 +32,15 @@ npm rebuild node-sass
 ```
 
 Excutar 'gulp' para rodar as tarefas criadas no laravel elixir em gulpfile.js
+
+## Elegant Flash Messaging
+
+Para mensagens de sucesso vamos utilzar o pacote [SweetAlert](http://t4t5.github.io/sweetalert/). 
+
+Assim, vamos adicionar o pacote via NPM no laravel elixir
+
+```sh
+sudo npm install --save sweetalert jquery bootstrap --no-bin-links
+```
+
 
