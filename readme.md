@@ -2,7 +2,7 @@
 
 Projeto de estudo da aula Project Build "ProjectFlyer" With Me
 
-[Link](https://github.com/stephanjusypiw/project-flyer) encontrado para um projeto do git que com o código implementado
+[Link](https://github.com/stephanjusypiw/project-flyer) encontrado para um projeto do github que com o código implementado
 
 ## Initial Setup
 
@@ -43,4 +43,14 @@ Assim, vamos adicionar o pacote via NPM no laravel elixir
 sudo npm install --save sweetalert jquery bootstrap --no-bin-links
 ```
 
+## Bulk File Uploads
 
+Para upload vamos utilzar o pacote [Dropzone](http://www.dropzonejs.com/). 
+
+Assim para capturar no request o arquivo enviado, usar: 
+
+```php
+$request->file('photo')
+```
+
+em que photo é o nome do input.
